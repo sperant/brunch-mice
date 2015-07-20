@@ -1,9 +1,18 @@
-$default-bg: white;
-$default-text: black;
+/* Sane Defaults */
 
+// https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Main Styles */
+
+html,
 body {
-  font-family: Georgia, serif;
-  font-size: 16px;
-  background: $default-bg;
-  color: $default-text;
+  margin: 0;
+  padding: 0;
 }
