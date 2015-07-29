@@ -1,6 +1,6 @@
 # Brunch-mice
 
-A simple brunch setup for front-end design creation.
+A simple brunch skeleton for front-end design creation.
 
 Built with:
   - SASS

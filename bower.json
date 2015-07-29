@@ -2,6 +2,29 @@
   "name": "brunch-mice",
   "version": "0.0.1",
   "main": "public/app.js",
-  "dependencies": {},
-  "overrides": {}
+  "dependencies": {
+    "normalize.css": "~3.0.3"
+  },
+  "homepage": "https://github.com/sperant/brunch-mice",
+  "authors": [
+    "Sperant <sperabunt@gmail.com>"
+  ],
+  "description": "A simple brunch skeleton for front-end design creation.",
+  "moduleType": [
+    "es6"
+  ],
+  "keywords": [
+    "brunch",
+    "skeleton",
+    "sass",
+    "babel"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
 }

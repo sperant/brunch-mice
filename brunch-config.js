@@ -5,9 +5,6 @@ exports.config = {
       joinTo: 'app.js'
     },
     stylesheets: {
-      order: {
-        before: ['vendor/styles/normalize.css'],
-      },
       joinTo: 'app.css'
     }
   },
