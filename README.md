@@ -38,8 +38,6 @@ Build for production: ```jekyll build & brunch build --production```
     │       ├── _typography.scss
     │       ├── _variables.scss
     │       └── main.scss
-    ├── bower_components/
-    ├── node_modules/
     ├── public/
     ├── _config.yml
     ├── bower.json
