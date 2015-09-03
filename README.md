@@ -11,9 +11,9 @@ Built with:
 
 ### Usage
 
-Run for development purposes: ```jekyll build --watch & brunch watch --server```
+Run for development purposes: ```npm start```
 
-Build for production: ```jekyll build & brunch build --production```
+Build for production: ```npm build```
 
 
 ### Directory Structure

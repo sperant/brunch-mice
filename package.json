@@ -9,7 +9,8 @@
   },
   "license": "MIT",
   "scripts": {
-    "start": "brunch watch --server"
+    "start": "jekyll build --watch & brunch watch --server",
+    "build": "jekyll build && brunch build --production"
   },
   "dependencies": {
     "auto-reload-brunch": ">= 1.0 < 1.9",
